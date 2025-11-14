@@ -1,20 +1,42 @@
 {
-  "name": "Xp App Repo Back Up",
-  "subtitile": "A home to Xp app",
+  "name": "XP App Repo",
+  "subtitle": "A home to XP App",
   "identifier": "app.xpapp.ios.repo",
   "tintColor": "#9a41cd",
-  "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
+  "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/icon.png",
   "website": "https://xprime.tv/",
   "apps": [
     {
-      "name": "XP app",
+      "name": "XP App",
       "bundleIdentifier": "com.xpteam.xp",
-      "developerName": "Xp Team",
-      "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
-      "localizedDescription": "An app for streaming content. ",
+      "developerName": "XP Team",
       "subtitle": "An app for downloading and streaming video.",
+      "localizedDescription": "An app for streaming and downloading content.",
+      "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/icon.png",
       "tintColor": "#9a41cd",
       "category": "entertainment",
+            "screenshots": [
+        {
+          "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/screenshots/main.png",
+          "width": 1170,
+          "height": 2532
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/screenshots/about.png",
+          "width": 1170,
+          "height": 2532
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/screenshots/search.png",
+          "width": 1170,
+          "height": 2532
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/screenshots/search.png",
+          "width": 1170,
+          "height": 2532
+        }
+      ],
       "versions": [
         {
           "version": "1.0.5",
@@ -28,7 +50,7 @@
           "date": "2025-11-10",
           "size": 94127627,
           "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.4/XP.ipa",
-          "localizedDescription": "Initial commit"
+          "localizedDescription": "Initial commit."
         }
       ]
     }
