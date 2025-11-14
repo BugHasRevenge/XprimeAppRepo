@@ -7,4 +7,4 @@ I am going to try to keep it updated
 
 ## 🛑Important
 If altstore/sidestore shows error, please write it in the issues tab.
-If there was a new announced version it should be up in about an hour (or longer if i sleep and webhook stops working)
+If there was a new announced version of the app, try closing and reopening AltStore/Sidestore, if nothing happened, wait, it should be up in about an hour (or longer if i sleep and webhook stops working)
