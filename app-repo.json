@@ -1,6 +1,6 @@
 {
   "name": "Xp App Repo",
-  "subtitile": "A home to Xp app"
+  "subtitile": "A home to Xp app",
   "identifier": "app.xpapp.ios.repo",
   "tintColor": "#9a41cd",
   "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
