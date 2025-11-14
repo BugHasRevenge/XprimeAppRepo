@@ -1,1 +1,32 @@
+name: Auto Update AltStore Source
 
+on:
+  schedule:
+    - cron: "0 * * * *"       # Every hour
+  workflow_dispatch:          # Manual run
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      run: pip install requests
+
+    - name: Run updater
+      run: python check_release.py
+
+    - name: Commit changes
+      run: |
+        git config user.name "github-actions"
+        git config user.email "actions@github.com"
+        git add altstore.json
+        git commit -m "Auto update AltStore source" || echo "No changes"
+        git push
