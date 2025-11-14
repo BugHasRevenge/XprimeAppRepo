@@ -17,14 +17,23 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.5",
+          "version": "1.0.6",
+          "buildVersion": "3",
+          "date": "2025-11-15",
+          "size": 20071417,
+          "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.3/XP.ipa",
+          "localizedDescription": "Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience."
+        {
+          "version": "1.0.5",
+          "buildVersion": "2",
           "date": "2025-11-14",
           "size": 20071417,
           "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.5/XP.ipa",
           "localizedDescription": "Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience."
         },
         {
-          "version": "1.4",
+          "version": "1.0.4",
+          "buildVersion": "1",
           "date": "2025-11-10",
           "size": 94127627,
           "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.4/XP.ipa",
