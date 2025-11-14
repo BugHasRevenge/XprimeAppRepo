@@ -15,17 +15,13 @@
       "subtitle": "An app for streaming content.",
       "tintColor": "#9a41cd",
       "category": "entertainment",
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/3.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/4.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/5.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/6.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/7.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
-      ],
+      "screenshots": [ 
+    {
+        "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/main.png",
+        "width": 1170,
+        "height": 2532
+    }
+    ],
       "versions": [
         {
           "version": "1.5",
