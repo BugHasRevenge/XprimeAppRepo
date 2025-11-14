@@ -58,12 +58,12 @@ def main():
     app = data["apps"][0]   # update only the first app
 
     # If version hasn't changed, nothing to do
-    if app["version"] == tag:
+    if app["versions"] == tag:
         print("Already up to date.")
         return
 
     # Write updates
-    app["version"] = tag
+    app["versions"] = tag
     app["versionDate"] = publish_date
     app["downloadURL"] = download_url
 
