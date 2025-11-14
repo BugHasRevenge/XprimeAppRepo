@@ -16,10 +16,10 @@
       "tintColor": "#9a41cd",
       "category": "entertainment",
       "screenshotURLs": [
-         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/main.PNG",
-         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/about.PNG",
-         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/search.PNG",
-         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/favorites.PNG"
+         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/main/main.PNG",
+         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/main/about.PNG",
+         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/main/search.PNG",
+         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/main/favorites.PNG"
       ],
       "versions": [
         {
