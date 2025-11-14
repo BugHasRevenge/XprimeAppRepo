@@ -27,6 +27,6 @@ jobs:
       run: |
         git config user.name "github-actions"
         git config user.email "actions@github.com"
-        git add altstore.json
+        git add app-repo-backup.json
         git commit -m "Auto update AltStore source" || echo "No changes"
         git push
