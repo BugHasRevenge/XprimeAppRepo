@@ -64,12 +64,14 @@ def main():
 
     # Write updates
     app["versions"] = [
-    {
-        "version": tag,
-        "date": publish_date,
-        "downloadURL": download_url,
-        "localizedDescription": release_notes.replace("\r\n", "\n")
-    }
+        {
+            "version": tag,
+            "date": publish_date,
+            "downloadURL": download_url,
+            "localizedDescription": release_notes.replace("\r\n", "\n")
+        }
+    ]
+
 
     # Add release notes to versionDescription
     if release_notes:
