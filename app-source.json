@@ -3,6 +3,7 @@
   "identifier": "app.xpapp.ios.repo",
   "tintColor": "#9a41cd",
   "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
+  "website": "https://xprime.tv/",
   "apps": [
     {
       "name": "XP app",
