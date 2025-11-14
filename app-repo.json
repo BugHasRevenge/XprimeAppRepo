@@ -1,5 +1,6 @@
 {
   "name": "Xp App Repo",
+  "description": "A home to xp"
   "identifier": "app.xpapp.ios.repo",
   "tintColor": "#9a41cd",
   "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
@@ -14,6 +15,12 @@
       "subtitle": "An app for streaming content.",
       "tintColor": "#9a41cd",
       "category": "entertainment",
+      "screenshotURLs": [
+         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/main.PNG",
+         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/about.PNG",
+         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/search.PNG",
+         "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/favorites.PNG"
+      ],
       "versions": [
         {
           "version": "1.5",
