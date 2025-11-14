@@ -1,17 +1,40 @@
 {
   "name": "Xp App Repo",
   "identifier": "app.xpapp.ios.repo",
+  "tintColor": "#9a41cd",
   "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
   "apps": [
     {
-      "name": "Xp",
+      "name": "XP app",
       "bundleIdentifier": "com.xpteam.xp",
       "developerName": "Xp Team",
       "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
       "localizedDescription": "An app for streaming content.",
       "subtitle": "An app for streaming content.",
-      "tintColor": "5CA399",
+      "tintColor": "#9a41cd",
       "category": "entertainment",
+      "screenshots": [
+                {
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/main.PNG",
+                    "width": 1770,
+                    "height": 2532
+                }
+                {
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/search.PNG",
+                    "width": 1770,
+                    "height": 2532
+                }
+                {
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/about.PNG",
+                    "width": 1770,
+                    "height": 2532
+                }
+                {
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/favorites.PNG",
+                    "width": 1770,
+                    "height": 2532
+                }
+            ],
       "versions": [
         {
           "version": "1.5",
