@@ -4,7 +4,7 @@ import datetime
 
 # --------- CONFIG ---------
 REPO = "afyef/XP-App"  # EX: "OpenVPN/openvpn"
-ASSET_NAME = "Xp.ipa"  # The IPA file in your GitHub releases
+ASSET_NAME = "XP.ipa"  # The IPA file in your GitHub releases
 ALTSTORE_FILE = "app-repo-old.json"
 # --------------------------
 
