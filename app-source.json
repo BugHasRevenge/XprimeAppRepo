@@ -13,28 +13,6 @@
       "subtitle": "An app for streaming content.",
       "tintColor": "#9a41cd",
       "category": "entertainment",
-      "screenshots": [
-                {
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/main.PNG",
-                    "width": 1770,
-                    "height": 2532
-                }
-                {
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/search.PNG",
-                    "width": 1770,
-                    "height": 2532
-                }
-                {
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/about.PNG",
-                    "width": 1770,
-                    "height": 2532
-                }
-                {
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/favorites.PNG",
-                    "width": 1770,
-                    "height": 2532
-                }
-            ],
       "versions": [
         {
           "version": "1.5",
