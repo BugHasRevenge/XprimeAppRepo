@@ -1,6 +1,6 @@
 {
   "name": "Xp App Repo",
-  "description": "A home to xp"
+  "description": "A home to Xp app"
   "identifier": "app.xpapp.ios.repo",
   "tintColor": "#9a41cd",
   "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
@@ -11,17 +11,10 @@
       "bundleIdentifier": "com.xpteam.xp",
       "developerName": "Xp Team",
       "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
-      "localizedDescription": "An app for streaming content.",
-      "subtitle": "An app for streaming content.",
+      "localizedDescription": "An app for streaming content. ",
+      "subtitle": "An ios app for downloading and streaming video files from various sources.",
       "tintColor": "#9a41cd",
       "category": "entertainment",
-      "screenshots": [ 
-    {
-        "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/assets/rsz_main.png",
-        "width": 1170,
-        "height": 2532
-    }
-    ],
       "versions": [
         {
           "version": "1.5",
