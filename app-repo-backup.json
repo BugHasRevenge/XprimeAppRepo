@@ -1,60 +1,48 @@
 {
-  "name": "XP App Repo for backup",
-  "subtitle": "A home to XP App",
-  "identifier": "app.xpapp.ios.repo.backup",
-  "tintColor": "#9a41cd",
-  "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/icon.png",
-  "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/header.png",
-  "description": "This is the unofficial AltStore Source for Xp App.\n\n Watch content without paying for subscriptions!",
-  "website": "https://xprime.tv/",
-  "apps": [
-    {
-      "name": "XP App",
-      "bundleIdentifier": "com.xpteam.xp",
-      "developerName": "XP Team",
-      "subtitle": "An app for downloading and streaming video.",
-      "localizedDescription": "Enjoy a vast library of movies and shows with Xp app. Discover new releases and classic favorites across various genres, all in one place. Without the need of any subscription. /n /n App made by Afyef(Xprime), Icon by Simsalabim and source by BugHasRevenge",
-      "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/icon.png",
-      "tintColor": "#9a41cd",
-      "category": "entertainment",
+    "name": "XP App Repo for backup",
+    "subtitle": "A home to XP App",
+    "identifier": "app.xpapp.ios.repo.backup",
+    "tintColor": "#9a41cd",
+    "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/icon.png",
+    "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/header.png",
+    "description": "This is the unofficial AltStore Source for Xp App.\n\n Watch content without paying for subscriptions!",
+    "website": "https://xprime.tv/",
+    "apps": [
+        {
+            "name": "XP App",
+            "bundleIdentifier": "com.xpteam.xp",
+            "developerName": "XP Team",
+            "subtitle": "An app for downloading and streaming video.",
+            "localizedDescription": "Enjoy a vast library of movies and shows with Xp app. Discover new releases and classic favorites across various genres, all in one place. Without the need of any subscription. /n /n App made by Afyef(Xprime), Icon by Simsalabim and source by BugHasRevenge",
+            "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/icon.png",
+            "tintColor": "#9a41cd",
+            "category": "entertainment",
             "screenshots": [
-        {
-          "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/main.png",
-          "width": 1170,
-          "height": 2532
-        },
-        {
-          "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/about.png",
-          "width": 1170,
-          "height": 2532
-        },
-        {
-          "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/favorites.png",
-          "width": 1170,
-          "height": 2532
-        },
-        {
-          "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/search.png",
-          "width": 1170,
-          "height": 2532
+                {
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/main.png",
+                    "width": 1170,
+                    "height": 2532
+                },
+                {
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/about.png",
+                    "width": 1170,
+                    "height": 2532
+                },
+                {
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/favorites.png",
+                    "width": 1170,
+                    "height": 2532
+                },
+                {
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/search.png",
+                    "width": 1170,
+                    "height": 2532
+                }
+            ],
+            "versions": "v1.0.5",
+            "versionDate": "2025-11-14",
+            "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.5/XP.ipa",
+            "versionDescription": "## \u2728 Enhancements\r\n\r\n- Added Search Functionality \u2014 issued by @afyef"
         }
-      ],
-      "versions": [
-        {
-          "version": "1.0.5",
-          "date": "2025-11-14",
-          "size": 20071417,
-          "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.5/XP.ipa",
-          "localizedDescription": "Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience."
-        },
-        {
-          "version": "1.0.4",
-          "date": "2025-11-10",
-          "size": 94127627,
-          "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.4/XP.ipa",
-          "localizedDescription": "Initial commit."
-        }
-      ]
-    }
-  ]
+    ]
 }
