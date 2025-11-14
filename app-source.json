@@ -1,0 +1,33 @@
+{
+  "name": "Xp App Repo",
+  "identifier": "app.xpapp.ios.repo",
+  "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
+  "apps": [
+    {
+      "name": "Xp",
+      "bundleIdentifier": "com.xpteam.xp",
+      "developerName": "Xp Team",
+      "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/Xprime-app-altstore-repo/refs/heads/main/icon.png",
+      "localizedDescription": "An app for streaming content.",
+      "subtitle": "An app for streaming content.",
+      "tintColor": "5CA399",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.5",
+          "date": "2025-11-14",
+          "size": 20071417,
+          "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.5/XP.ipa",
+          "localizedDescription": "Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience."
+        },
+        {
+          "version": "1.4",
+          "date": "2025-11-10",
+          "size": 94127627,
+          "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.4/XP.ipa",
+          "localizedDescription": "Further improvements to overall system stability and other minor adjustments have been made to enhance the user experience."
+        }
+      ]
+    }
+  ]
+}
