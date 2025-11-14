@@ -1,7 +1,7 @@
 {
   "name": "XP App Repo for backup",
   "subtitle": "A home to XP App",
-  "identifier": "app.xpapp.ios.repo",
+  "identifier": "app.xpapp.ios.repo.backup",
   "tintColor": "#9a41cd",
   "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/icon.png",
   "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/header.png",
