@@ -63,9 +63,13 @@ def main():
         return
 
     # Write updates
-    app["versions"] = tag
-    app["versionDate"] = publish_date
-    app["downloadURL"] = download_url
+    app["versions"] = [
+    {
+        "version": tag,
+        "date": publish_date,
+        "downloadURL": download_url,
+        "localizedDescription": release_notes.replace("\r\n", "\n")
+    }
 
     # Add release notes to versionDescription
     if release_notes:
