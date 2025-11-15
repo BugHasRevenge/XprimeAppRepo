@@ -39,6 +39,19 @@
                     "height": 2532
                 }
             ],
+
+            "news": [
+              {
+                "title": "Search tab",
+                "identifier": "new_feature",
+                "caption": "Introducing the search tab!",
+                "date": "2025-11-14",
+                "tintColor": "#9a41cd",
+                "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/header.png",
+                "notify": false,
+                "appID": "com.xpteam.xp"
+              },
+            ],
             "versions": [
                 {
                     "version": "1.0.5",
