@@ -42,9 +42,9 @@
             "news": [
                 {
                     "title": "Search tab",
-                    "identifier": "new_feature",
+                    "identifier": "new_feature_1_0_5",
                     "caption": "Introducing the search tab!",
-                    "date": "2024-11-14",
+                    "date": "2025-11-14",
                     "tintColor": "#9a41cd",
                     "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/header.png",
                     "notify": false,
@@ -54,7 +54,7 @@
             "versions": [
                 {
                     "version": "1.0.5",
-                    "date": "2024-11-14",
+                    "date": "2025-11-14",
                     "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.5/XP.ipa",
                     "size": 20071417,
                     "localizedDescription": "## ✨ Enhancements\n\n- Added Search Functionality — issued by @afyef"
