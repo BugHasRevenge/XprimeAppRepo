@@ -53,11 +53,19 @@
             ],
             "versions": [
                 {
+                    "version": "1.0.6",
+                    "date": "2025-11-16",
+                    "bundleIdentifier": "com.xpteam.xp",
+                    "downloadURL": "https://github.com/afyef/XP-App/releases/download/1.0.6/XP.ipa",
+                    "size": 20810452,
+                    "localizedDescription": "\ud83d\udccc Baseline Milestone: Version 1.0.6\n\nThis release marks the **baseline for the complete milestone** for XP-App.\n\nEnhancements:\n- Added Liquid Glass native tab view for home \u2014 Issued by @afyef.\n- Implemented Offline Download functionality \u2014 Issued by @afyef.\n\nBug Fixes:\n- Minor performance improvements and stability fixes."
+                },
+                {
                     "version": "1.0.5",
                     "date": "2025-11-14",
                     "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.5/XP.ipa",
                     "size": 20071417,
-                    "localizedDescription": "## ✨ Enhancements\n\n- Added Search Functionality — issued by @afyef"
+                    "localizedDescription": "## \u2728 Enhancements\n\n- Added Search Functionality \u2014 issued by @afyef"
                 }
             ]
         }
