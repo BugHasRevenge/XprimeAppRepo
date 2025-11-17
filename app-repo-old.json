@@ -3,8 +3,8 @@
   "subtitle": "A home to XP App",
   "identifier": "app.xpapp.ios.repo",
   "tintColor": "#9a41cd",
-  "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/icon.png",
-  "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/header.png",
+  "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/icon.png",
+  "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/header.png",
   "website": "https://xprime.tv/",
   "apps": [
     {
@@ -13,7 +13,7 @@
       "developerName": "XP Team",
       "subtitle": "An app for downloading and streaming video.",
       "localizedDescription": "An app for streaming and downloading content.",
-      "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/refs/heads/main/icon.png",
+      "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/icon.png",
       "tintColor": "#9a41cd",
       "category": "entertainment",
             "screenshots": [
@@ -28,7 +28,7 @@
           "height": 2532
         },
         {
-          "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/search.png",
+          "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/downloads.png",
           "width": 1170,
           "height": 2532
         },
