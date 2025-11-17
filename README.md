@@ -5,7 +5,7 @@ A repo for The XP app
 #### Here are some images:
 
 
-<img width="292" height="633" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/main.png" />   <img width="292" height="633" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/search.png" />
+<img width="292" height="633" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/main.png" />  <img width="292" height="633" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/favorites.png" />  <img width="292" height="633" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/search.png" />
 
 
 ## ⬇️Source
