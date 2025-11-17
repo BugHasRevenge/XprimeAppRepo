@@ -1,11 +1,11 @@
-# Xp App Repo
-A repo for The Xp app
+# XP App Repo
+A repo for The XP app
 
 
 #### Here are some images:
 
 
-<img width="292" height="633" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/main.png" />   <img width="292" height="633" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/about.png" />
+<img width="292" height="633" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/main.png" />   <img width="292" height="633" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/search.png" />
 
 
 ## ⬇️Source
