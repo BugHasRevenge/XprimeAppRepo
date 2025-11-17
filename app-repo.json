@@ -3,8 +3,8 @@
     "subtitle": "A home to XP App",
     "identifier": "app.xpapp.ios.repo",
     "tintColor": "#9a41cd",
-    "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/icon.png",
-    "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/header.png",
+    "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/app-icon.png",
+    "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/top-header.png",
     "description": "This is the unofficial AltStore Source for Xp App.\n\nWatch content without paying for subscriptions!",
     "website": "https://xprime.tv/",
     "news": [
@@ -14,7 +14,7 @@
                     "caption": "Introducing the search tab!",
                     "date": "2025-11-14",
                     "tintColor": "#9a41cd",
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/header.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/top-header.png",
                     "notify": true,
                     "appID": "com.xpteam.xp"
                 },
@@ -24,7 +24,7 @@
                     "caption": "The download feature is working! \nGo check it out!",
                     "date": "2025-11-16",
                     "tintColor": "#9a41cd",
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/header.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/top-header.png",
                     "notify": true,
                     "appID": "com.xpteam.xp"
                 }
@@ -36,7 +36,7 @@
             "developerName": "XP Team",
             "subtitle": "An app for downloading and streaming content.",
             "localizedDescription": "Enjoy a vast library of movies and shows with XP app. Discover new releases and your favorites across various genres, all in **one place**. Without the need of any subscriptions. \n**✨ Key Features:** \n**Watch content in 4K with Orbit Source**  (more servers coming soon!) \n**Offline Downloads Save your favorite movies and shows to watch.** \n**Sync with P-Stream Account** — Keep your library and watch history synced across devices Save Watch History — Easily pick up where you left off \n\nApp made by Afyef(Xprime), Icon by Simsalabim and source by BugHasRevenge",
-            "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/icon.png",
+            "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/app-icon.png",
             "tintColor": "#9a41cd",
             "category": "entertainment",
             "screenshots": [
@@ -51,7 +51,7 @@
                     "height": 2532
                 },
                 {
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/downloads.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/downloaded.png",
                     "width": 1170,
                     "height": 2532
                 },
