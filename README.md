@@ -1,7 +1,7 @@
 # Xp App Repo
 A repo to The Xp app
-###Here are some images:
-[<img width="1170" height="2532" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/main.png" />]
+##Here are some images:
+<img width="292" height="633" alt="Main" src="https://github.com/BugHasRevenge/XprimeAppRepo/blob/main/assets/main.png" />
 
 
 ## ⬇️Source
