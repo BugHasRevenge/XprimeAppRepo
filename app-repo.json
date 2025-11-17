@@ -14,7 +14,7 @@
                     "caption": "Introducing the search tab!",
                     "date": "2025-11-14",
                     "tintColor": "#9a41cd",
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/top-header.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/news-header.png",
                     "notify": true,
                     "appID": "com.xpteam.xp"
                 },
@@ -24,7 +24,7 @@
                     "caption": "The download feature is working! \nGo check it out!",
                     "date": "2025-11-16",
                     "tintColor": "#9a41cd",
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/top-header.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/news-header.png",
                     "notify": true,
                     "appID": "com.xpteam.xp"
                 }
