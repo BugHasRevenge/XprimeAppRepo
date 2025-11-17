@@ -34,7 +34,7 @@
             "name": "XP App",
             "bundleIdentifier": "com.xpteam.xp",
             "developerName": "XP Team",
-            "subtitle": "An app for downloading and streaming video.",
+            "subtitle": "An app for downloading and streaming content.",
             "localizedDescription": "Enjoy a vast library of movies and shows with Xp app. Discover new releases and classic favorites across various genres, all in one place. Without the need of any subscription.\n\nApp made by Afyef(Xprime), Icon by Simsalabim and source by BugHasRevenge",
             "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/icon.png",
             "tintColor": "#9a41cd",
