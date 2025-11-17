@@ -3,8 +3,8 @@
     "subtitle": "A home to XP App",
     "identifier": "app.xpapp.ios.repo",
     "tintColor": "#9a41cd",
-    "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/icon.png",
-    "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/header.png",
+    "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/icon.png",
+    "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/header.png",
     "description": "This is the unofficial AltStore Source for Xp App.\n\nWatch content without paying for subscriptions!",
     "website": "https://xprime.tv/",
     "apps": [
@@ -14,32 +14,32 @@
             "developerName": "XP Team",
             "subtitle": "An app for downloading and streaming video.",
             "localizedDescription": "Enjoy a vast library of movies and shows with Xp app. Discover new releases and classic favorites across various genres, all in one place. Without the need of any subscription.\n\nApp made by Afyef(Xprime), Icon by Simsalabim and source by BugHasRevenge",
-            "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/icon.png",
+            "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/icon.png",
             "tintColor": "#9a41cd",
             "category": "entertainment",
             "screenshots": [
                 {
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/main.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/main.png",
                     "width": 1170,
                     "height": 2532
                 },
                 {
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/about.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/about.png",
                     "width": 1170,
                     "height": 2532
                 },
                 {
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/favorites.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/favorites.png",
                     "width": 1170,
                     "height": 2532
                 },
                 {
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/search.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/search.png",
                     "width": 1170,
                     "height": 2532
                 },
                 {
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/downloads.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/downloads.png",
                     "width": 588,
                     "height": 1238
                 }
@@ -51,7 +51,7 @@
                     "caption": "Introducing the search tab!",
                     "date": "2025-11-14",
                     "tintColor": "#9a41cd",
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/header.png",
+                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/header.png",
                     "notify": true,
                     "appID": "com.xpteam.xp"
                 }
