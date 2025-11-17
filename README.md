@@ -11,7 +11,7 @@ A repo for The Xp app
 ## ⬇️Source
 [<img width="325" height="107" alt="AltSource_Blue" src="https://github.com/user-attachments/assets/73ceb504-39ee-4094-a77a-47466a826265" />](https://celloserenity.github.io/altdirect/?url=https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/app-repo.json&exclude=livecontainer)
 
-(Click the image)
+##### (Click the image)
 
 ## 🛑Important
 If altstore/sidestore shows error, please write it in the issues tab.
