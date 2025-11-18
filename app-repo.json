@@ -8,34 +8,34 @@
     "description": "This is the unofficial AltStore Source for Xp App.\n\nWatch content without paying for subscriptions!",
     "website": "https://xprime.tv/",
     "news": [
-                {
-                    "title": "Search tab",
-                    "identifier": "new_feature_1_0_5",
-                    "caption": "Introducing the search tab!",
-                    "date": "2025-11-14",
-                    "tintColor": "#9a41cd",
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/news-header.png",
-                    "notify": true,
-                    "appID": "com.xpteam.xp"
-                },
-                {
-                    "title": "Downloading",
-                    "identifier": "downloading_1_0_6",
-                    "caption": "The download feature is working! \nGo check it out!",
-                    "date": "2025-11-16",
-                    "tintColor": "#9a41cd",
-                    "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/news-header.png",
-                    "notify": true,
-                    "appID": "com.xpteam.xp"
-                }
-            ],
+        {
+            "title": "Search tab",
+            "identifier": "new_feature_1_0_5",
+            "caption": "Introducing the search tab!",
+            "date": "2025-11-14",
+            "tintColor": "#9a41cd",
+            "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/news-header.png",
+            "notify": true,
+            "appID": "com.xpteam.xp"
+        },
+        {
+            "title": "Downloading",
+            "identifier": "downloading_1_0_6",
+            "caption": "The download feature is working! \nGo check it out!",
+            "date": "2025-11-16",
+            "tintColor": "#9a41cd",
+            "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/news-header.png",
+            "notify": true,
+            "appID": "com.xpteam.xp"
+        }
+    ],
     "apps": [
         {
             "name": "XP App",
             "bundleIdentifier": "com.xpteam.xp",
             "developerName": "XP Team",
             "subtitle": "An app for downloading and streaming content.",
-            "localizedDescription": "Enjoy a vast library of movies and shows with XP app. Discover new releases and your favorites across various genres, all in **one place**. Without the need of any subscriptions. \n**✨ Key Features:** \n**- Watch content in 4K with Orbit Source**  (more servers coming soon!) \n**- Offline Downloads** — Save your favorite movies and shows to watch.** \n**- Sync with P-Stream Account** — Keep your library and watch history synced across devices \n**- Save Watch History** — Easily pick up where you left off \n\nApp made by Afyef(Xprime), Icon by Simsalabim and source by BugHasRevenge",
+            "localizedDescription": "Enjoy a vast library of movies and shows with XP app. Discover new releases and your favorites across various genres, all in **one place**. Without the need of any subscriptions. \n**\u2728 Key Features:** \n**- Watch content in 4K with Orbit Source**  (more servers coming soon!) \n**- Offline Downloads** \u2014 Save your favorite movies and shows to watch.** \n**- Sync with P-Stream Account** \u2014 Keep your library and watch history synced across devices \n**- Save Watch History** \u2014 Easily pick up where you left off \n\nApp made by Afyef(Xprime), Icon by Simsalabim and source by BugHasRevenge",
             "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/app-icon.png",
             "tintColor": "#9a41cd",
             "category": "entertainment",
@@ -67,6 +67,14 @@
                 }
             ],
             "versions": [
+                {
+                    "version": "1.0.7",
+                    "date": "2025-11-18",
+                    "bundleIdentifier": "com.xpteam.xp",
+                    "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.7/XP.ipa",
+                    "size": 20791295,
+                    "localizedDescription": "## What's Fixed\n- Added a custom navigation bar with full search functionality\n- Improved compatibility for iOS versions below 26\n- Issued by @chocomilkysideloading"
+                },
                 {
                     "version": "1.0.6",
                     "date": "2025-11-16",
