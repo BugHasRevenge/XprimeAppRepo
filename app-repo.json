@@ -68,6 +68,14 @@
             ],
             "versions": [
                 {
+                    "version": "1.0.8",
+                    "date": "2025-11-19",
+                    "bundleIdentifier": "com.xpteam.xp",
+                    "downloadURL": "https://github.com/afyef/XP-App/releases/download/1.0.8/XP.ipa",
+                    "size": 20838149,
+                    "localizedDescription": "## What's Fixed\n\n  ### Download Progress Tracking\n  Downloaded episodes now properly track and resume from where you left off. Progress is saved locally and\n  automatically syncs to the server when you're back online. (#19 by @SimSalabimse)\n\n  ### Progress Sync Improvements\n  Watch progress now properly syncs across all playback methods. No more starting from the beginning every\n  time! (#28 by @ibrahimarijuanaa)\n\n  ### Episode Label UI Fix\n  Fixed episode labels in downloads section wrapping across two lines. Everything now displays cleanly on a\n  single line. (#17 by @SimSalabimse)\n\n  ### Auto-Scroll to Latest Episode\n  Media info now automatically scrolls to your most recently watched episode with smooth animation. (#14 by\n  @SimSalabimse)\n\n  ### Player Improvements\n  - Removed premature VLC buffering timeout\n  - Added 30-second safety timeout to prevent infinite buffering\n  - Better handling of large seeks in downloaded files\n\n  ### WebView Stability\n  - Fixed memory leaks in Turnstile verification\n  - Added retry limits to prevent infinite loops\n  - Improved JavaScript error handling"
+                },
+                {
                     "version": "1.0.7",
                     "date": "2025-11-18",
                     "bundleIdentifier": "com.xpteam.xp",
