@@ -1,6 +1,7 @@
 import requests
 import json
 import datetime
+import re
 
 # --------- CONFIG ---------
 REPO = "afyef/XP-App"  # EX: "OpenVPN/openvpn"
@@ -8,6 +9,30 @@ ASSET_NAME = "XP.ipa"  # The IPA file in your GitHub releases
 ALTSTORE_FILE = "app-repo.json"
 # --------------------------
 
+
+def clean_markdown(md: str) -> str:
+    """Cleans GitHub markdown so AltStore renders it correctly."""
+    if not md:
+        return ""
+
+    md = md.replace("\r\n", "\n").replace("\r", "\n")
+
+    # Remove random indentation that breaks AltStore
+    md = re.sub(r"\n\s+(#{1,6}\s)", r"\n\1", md)
+
+    # Remove accidental code blocks
+    md = md.replace("```", "")
+
+    # Remove double spaces that cause preformatted blocks
+    md = re.sub(r"\n {2,}", "\n", md)
+
+    # Remove tabs
+    md = md.replace("\t", " ")
+
+    # Strip trailing whitespace
+    md = "\n".join(line.rstrip() for line in md.split("\n"))
+
+    return md.strip()
 
 
 def get_latest_release(repo):
@@ -22,9 +47,10 @@ def get_latest_release(repo):
     # Remove "v" prefix if present
     tag = data["tag_name"].lstrip("v")
 
-    release_notes = data.get("body", "").strip().replace("\r\n", "\n")
-    publish_date = data.get("published_at", "").split("T")[0]
+    raw_notes = data.get("body", "").strip()
+    release_notes = clean_markdown(raw_notes)
 
+    publish_date = data.get("published_at", "").split("T")[0]
     if not publish_date:
         publish_date = str(datetime.date.today())
 
@@ -54,13 +80,7 @@ def save_altstore_file(data):
 
 
 def fix_raw_github_url(url: str):
-    """
-    Converts URLs like:
-    https://raw.githubusercontent.com/user/repo/refs/heads/main/icon.png
-    
-    Into correct format:
-    https://raw.githubusercontent.com/user/repo/main/icon.png
-    """
+    """Fixes GitHub raw URLs using /refs/heads/ which AltStore rejects."""
     return url.replace("/refs/heads/", "/")
 
 
@@ -83,7 +103,7 @@ def main():
         for shot in app["screenshots"]:
             shot["imageURL"] = fix_raw_github_url(shot["imageURL"])
 
-    # FIX incorrect /n usage in localizedDescription (replace with \n)
+    # Fix /n → \n
     if "localizedDescription" in app:
         app["localizedDescription"] = app["localizedDescription"].replace("/n", "\n").replace("/n ", "\n")
 
