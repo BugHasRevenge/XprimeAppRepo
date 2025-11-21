@@ -68,6 +68,14 @@
             ],
             "versions": [
                 {
+                    "version": "1.0.9",
+                    "date": "2025-11-21",
+                    "bundleIdentifier": "com.xpteam.xp",
+                    "downloadURL": "https://github.com/afyef/XP-App/releases/download/v1.0.9/XP.ipa",
+                    "size": 21185589,
+                    "localizedDescription": "## What's New\n### Live Activity & Download Queue (#39 by @SimSalabimse)\nTrack your download progress right from your Lock Screen and Dynamic Island! Queue multiple downloads and\nwatch them complete one by one.\n### Download Speed & Time Estimates (#38 by @SimSalabimse)\nDownloads now show real-time speed (MB/s), remaining file size, and estimated time to completion.\n### Offline Playback Detection (#26 by @SimSalabimse)\nWhen you have a downloaded version of content, the app now asks if you want to play the offline version or\nstream online.\n### Storage Size Display (#18 by @SimSalabimse)\nSee exactly how much space your downloads are using in the Downloads tab.\n### Download Progress Display (#16 by @SimSalabimse)\nDownloads now show accurate progress bars and percentage completion in the Downloads tab.\n\n---\n## What's Fixed\n### App Lag During Downloads (#15 by @SimSalabimse)\nFixed the lag that occurred throughout the app when downloads were active.\n### Cancel Download Button\nThe cancel (X) button on downloading episodes now works properly.\n\n---\n## Direct Install\n\nOr download signed app directly without requiring sideloading steps. Provided by @brohammy\n## This is an external solution that is not managed by the XP Team. Copy paste this in your browser\n\n> `itms-services://?action=download-manifest&url=https://github.com/OneANDD/plist-files/releases/download/Xp/XPSigned.plist`\n\n\n*(Tested in Safari)*"
+                },
+                {
                     "version": "1.0.8",
                     "date": "2025-11-19",
                     "bundleIdentifier": "com.xpteam.xp",
