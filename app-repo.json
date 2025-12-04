@@ -16,7 +16,7 @@
             "tintColor": "#9a41cd",
             "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/news-header.png",
             "notify": true,
-            "appID": "com.xpteam.xp"
+            "appID": "com.XP-team.XP"
         },
         {
             "title": "Downloading",
@@ -25,14 +25,14 @@
             "date": "2025-11-16",
             "tintColor": "#9a41cd",
             "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/news-header.png",
-            "notify": true,
-            "appID": "com.xpteam.xp"
+            "notify": false,
+            "appID": "com.XP-team.XP"
         }
     ],
     "apps": [
         {
             "name": "XP App",
-            "bundleIdentifier": "com.xpteam.xp",
+            "bundleIdentifier": "com.XP-team.XP",
             "developerName": "XP Team",
             "subtitle": "An app for downloading and streaming content.",
             "localizedDescription": "Enjoy a vast library of movies and shows with XP app. Discover new releases and your favorites across various genres, all in **one place**. Without the need of any subscriptions. \n**\u2728 Key Features:** \n**- Watch content in 4K with Orbit Source**  (more servers coming soon!) \n**- Offline Downloads** \u2014 Save your favorite movies and shows to watch.** \n**- Sync with P-Stream Account** \u2014 Keep your library and watch history synced across devices \n**- Save Watch History** \u2014 Easily pick up where you left off \n\nApp made by Afyef(Xprime), Icon by Simsalabim and source by BugHasRevenge",
