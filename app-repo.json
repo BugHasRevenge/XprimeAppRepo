@@ -5,9 +5,18 @@
     "tintColor": "#9a41cd",
     "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/app-icon.png",
     "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/top-header.png",
-    "description": "This is the unofficial AltStore Source for Xp App.\n\nWatch content without paying for subscriptions!",
+    "description": "This is the official AltStore Source for Xp App.\n\nEnjoy a vast library of movies and shows with XP app. Discover new releases and your favorites across various genres, all in **one place**. Without the need of any subscriptions.",
     "website": "https://pstream.mov/",
     "news": [
+        {
+            "title": "!ATTENTION!",
+            "identifier": "new_feature_1_0_7",
+            "caption": "App isn't working, because of backend change of the main website. Should be fixed soon",
+            "date": "2026-1-1",
+            "tintColor": "#ff0e0e",
+            "notify": true,
+            "appID": "XP-Team.XP"
+        },
         {
             "title": "Search tab",
             "identifier": "new_feature_1_0_5",
@@ -78,7 +87,7 @@
                 {
                     "version": "1.0.8",
                     "date": "2025-11-19",
-                    "bundleIdentifier": "com.xpteam.xp",
+                    "bundleIdentifier": "XP-Team.XP",
                     "downloadURL": "https://github.com/afyef/XP-App/releases/download/1.0.8/XP.ipa",
                     "size": 20838149,
                     "localizedDescription": "## What's Fixed\n\n  ### Download Progress Tracking\n  Downloaded episodes now properly track and resume from where you left off. Progress is saved locally and\n  automatically syncs to the server when you're back online. (#19 by @SimSalabimse)\n\n  ### Progress Sync Improvements\n  Watch progress now properly syncs across all playback methods. No more starting from the beginning every\n  time! (#28 by @ibrahimarijuanaa)\n\n  ### Episode Label UI Fix\n  Fixed episode labels in downloads section wrapping across two lines. Everything now displays cleanly on a\n  single line. (#17 by @SimSalabimse)\n\n  ### Auto-Scroll to Latest Episode\n  Media info now automatically scrolls to your most recently watched episode with smooth animation. (#14 by\n  @SimSalabimse)\n\n  ### Player Improvements\n  - Removed premature VLC buffering timeout\n  - Added 30-second safety timeout to prevent infinite buffering\n  - Better handling of large seeks in downloaded files\n\n  ### WebView Stability\n  - Fixed memory leaks in Turnstile verification\n  - Added retry limits to prevent infinite loops\n  - Improved JavaScript error handling"
