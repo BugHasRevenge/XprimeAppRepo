@@ -12,9 +12,9 @@
     "website": "https://pstream.mov/",
     "news": [
         {
-            "title": "!ATTENTION!",
+            "title": "Attention!",
             "identifier": "new_feature_1_0_7",
-            "caption": "App isn't working, because of backend change of the main website. Should be fixed soon™️.",
+            "caption": "Signing in isn't working, because of backend change of the main website. Should be fixed soon.",
             "date": "2026-1-1",
             "tintColor": "#ff0e0e",
             "notify": true,
