@@ -6,12 +6,15 @@
     "iconURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/app-icon.png",
     "headerURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/top-header.png",
     "description": "This is the official AltStore Source for Xp App.\n\nEnjoy a vast library of movies and shows with XP app. Discover new releases and your favorites across various genres, all in **one place**. Without the need of any subscriptions.",
+    "featuredApps": [
+        "XP-Team.XP"
+    ],
     "website": "https://pstream.mov/",
     "news": [
         {
             "title": "!ATTENTION!",
             "identifier": "new_feature_1_0_7",
-            "caption": "App isn't working, because of backend change of the main website. Should be fixed soon",
+            "caption": "App isn't working, because of backend change of the main website. Should be fixed soon™️.",
             "date": "2026-1-1",
             "tintColor": "#ff0e0e",
             "notify": true,
@@ -24,7 +27,7 @@
             "date": "2025-11-14",
             "tintColor": "#9a41cd",
             "imageURL": "https://raw.githubusercontent.com/BugHasRevenge/XprimeAppRepo/main/assets/news-header.png",
-            "notify": true,
+            "notify": false,
             "appID": "XP-Team.XP"
         },
         {
