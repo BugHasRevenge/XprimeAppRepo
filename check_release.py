@@ -4,83 +4,93 @@ import datetime
 import re
 
 # --------- CONFIG ---------
-REPO = "afyef/XP-App"  # EX: "OpenVPN/openvpn"
-ASSET_NAME = "XP.ipa"  # The IPA file in your GitHub releases
+REPO = "afyef/XP-App"        # GitHub repo
+ASSET_NAME = "XP.ipa"        # Expected IPA name (fallback: any .ipa)
 ALTSTORE_FILE = "app-repo.json"
 # --------------------------
 
 
 def clean_markdown(md: str) -> str:
-    """Cleans GitHub markdown so AltStore renders it correctly."""
+    """Clean GitHub markdown so AltStore renders it correctly."""
     if not md:
         return ""
 
     md = md.replace("\r\n", "\n").replace("\r", "\n")
 
-    # Remove random indentation that breaks AltStore
+    # Remove indentation before headings
     md = re.sub(r"\n\s+(#{1,6}\s)", r"\n\1", md)
 
-    # Remove accidental code blocks
+    # Remove code fences
     md = md.replace("```", "")
 
-    # Remove double spaces that cause preformatted blocks
+    # Remove indentation that creates code blocks
     md = re.sub(r"\n {2,}", "\n", md)
 
     # Remove tabs
     md = md.replace("\t", " ")
 
-    # Strip trailing whitespace
+    # Trim trailing whitespace
     md = "\n".join(line.rstrip() for line in md.split("\n"))
 
     return md.strip()
 
 
 def get_latest_release(repo):
-    url = f"https://api.github.com/repos/{repo}/releases/latest"
+    url = f"https://api.github.com/repos/{repo}/releases"
     r = requests.get(url)
 
     if r.status_code != 200:
         raise Exception("GitHub API error:", r.text)
 
-    data = r.json()
+    releases = r.json()
 
-    # Remove "v" prefix if present
-    tag = data["tag_name"].lstrip("v")
+    ios_release = None
+    ipa_asset = None
 
-    raw_notes = data.get("body", "").strip()
+    # Find the newest release that contains an IPA
+    for rel in releases:
+        for asset in rel.get("assets", []):
+            if asset["name"] == ASSET_NAME or asset["name"].endswith(".ipa"):
+                ios_release = rel
+                ipa_asset = asset
+                break
+        if ios_release:
+            break
+
+    if not ios_release or not ipa_asset:
+        raise Exception("No iOS IPA release found.")
+
+    tag = ios_release["tag_name"].lstrip("v")
+
+    raw_notes = ios_release.get("body", "").strip()
     release_notes = clean_markdown(raw_notes)
 
-    publish_date = data.get("published_at", "").split("T")[0]
+    publish_date = ios_release.get("published_at", "").split("T")[0]
     if not publish_date:
         publish_date = str(datetime.date.today())
 
-    # Ensure date is not in the future (AltStore rejects future dates)
     today = str(datetime.date.today())
     if publish_date > today:
         publish_date = today
 
-    # Look for IPA asset
-    for asset in data["assets"]:
-        if asset["name"] == ASSET_NAME:
-            download_url = asset["browser_download_url"]
-            file_size = asset["size"]        # bytes
-            return tag, download_url, release_notes, publish_date, file_size
+    download_url = ipa_asset["browser_download_url"]
+    file_size = ipa_asset["size"]
 
-    raise Exception(f"No asset named '{ASSET_NAME}' found in release.")
+    return tag, download_url, release_notes, publish_date, file_size
 
 
 def load_altstore_file():
-    with open(ALTSTORE_FILE, "r") as f:
+    with open(ALTSTORE_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 def save_altstore_file(data):
-    with open(ALTSTORE_FILE, "w") as f:
-        json.dump(data, f, indent=4)
+    with open(ALTSTORE_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
 
 def fix_raw_github_url(url: str):
-    """Fixes GitHub raw URLs using /refs/heads/ which AltStore rejects."""
+    """Fix GitHub raw URLs containing /refs/heads/"""
     return url.replace("/refs/heads/", "/")
 
 
@@ -93,9 +103,9 @@ def main():
     print("IPA:", download_url)
 
     data = load_altstore_file()
-    app = data["apps"][0]   # Update only first app
+    app = data["apps"][0]
 
-    # Fix known bad URLs
+    # Fix bad raw URLs
     app["iconURL"] = fix_raw_github_url(app["iconURL"])
     if "headerURL" in app:
         app["headerURL"] = fix_raw_github_url(app["headerURL"])
@@ -103,21 +113,24 @@ def main():
         for shot in app["screenshots"]:
             shot["imageURL"] = fix_raw_github_url(shot["imageURL"])
 
-    # Fix /n → \n
+    # Fix incorrect /n usage
     if "localizedDescription" in app:
-        app["localizedDescription"] = app["localizedDescription"].replace("/n", "\n").replace("/n ", "\n")
+        app["localizedDescription"] = (
+            app["localizedDescription"]
+            .replace("/n", "\n")
+            .replace("/n ", "\n")
+        )
 
     # Ensure versions array exists
     if "versions" not in app or not isinstance(app["versions"], list):
         app["versions"] = []
 
-    # Check if version already exists
+    # Prevent duplicate versions
     for v in app["versions"]:
         if v["version"] == tag:
             print("Already up to date.")
             return
 
-    # Create version entry
     new_version = {
         "version": tag,
         "date": publish_date,
@@ -127,7 +140,7 @@ def main():
         "localizedDescription": release_notes or f"Updated to {tag}"
     }
 
-    # Insert newest version at top
+    # Insert newest version at the top
     app["versions"].insert(0, new_version)
 
     save_altstore_file(data)
